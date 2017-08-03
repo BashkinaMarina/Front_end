@@ -1,104 +1,103 @@
 body {
-	font-family:Arial, sans-serif;
-	padding: 0;
-	margin: 0;}
-
-	.clearfix:after {
-	content:'';
-	display: table;
-	width: 100%;
-	clear: both;}
-header{
-	background: url(../img/first.png) no-repeat center top;
-	
-	height: 300px;	
+	font-family:Myriad Pro, sans-serif;/* рубленные шрифты (шрифты без засечек или гротески)*/
+	padding: 0;/*вокруг содержимого элемента*/
+	margin: 0;/*Отступы вокруг элемента*/
+	color: #cc0000;/*цвет*/
 }
+.nav-wrapper:after {
+	content:'';/*Свойство content позволяет вставлять генерируемое содержание в текст веб-страницы, которое первоначально в тексте отсутствует. Применяется совместно с псевдоэлементами :after и :before, они соответственно указывают отображать новое содержимое после или до элемента, к которому добавляются.*/
+	display: table;/*элемент должен быть показан в документе.*/
+	width: 100%;
+	clear: both;/*Устанавливает, с какой стороны элемента запрещено его обтекание другими элементами*/
+}
+
+header {
+	background: url(img/banner.png) no-repeat center top /cover;/*фон*/
+	height: 581px;
+	}
 .container
 {
-	width:500px;
+	width: 1024px;
 	margin: 0 auto;
+	padding:0px;
+}
+.nav-wrapper{
+	/*border: 5px solid rgba(255,255,255,1);*/
+	text-align: right;
+	padding-right: 46px;
+	padding-top: 43px;
+	padding-bottom: 35px;
+}
+.nav-wrapper a {
+	font-family:Segoe UI;
+	text-decoration: none;/*убрать подчек*/
+	font-size: 17px;
+	margin-left: 38px;
+	color: #7c7777;
+	}
+.Login  {
+	background: #de6d6d;
+	padding: 3px;
+	border-radius: 5px;
+	color:white;
+	
+	}
+.Logo-wrapper{
+	position: absolute;
+	top: 10px;
+		}
+/*# content{
+	font-size:25px;
+
+}
+# footer{
+	font-size:25px;
 }
 
-nav {
-	float: right;
-	margin-top: 5px;}
-
-.menu{
-	padding: 0;
-	margin: 0;
-	display: block;
 }
+# header{
+	font-size:25px;
 
-.menu li {
-	float: left;
-	display: block;
-	margin-right: 21px;
+}*/
+
+ .my-flex-conteiner{
+	font-family: Myriad Pro Regular;
+	background: #333333;
+	color: #aeaeae;
+	font-size: 21px;
+	display: flex;
+	justify-content:space-around;
+	align-items:flex-end;
+	flex-direction: row;
+	padding:43px 127px 36px 197px ;
+
 }
-.menu a {
-	color:#666666 ;
+.my-flex-block1 a    {
+    
+    color: #aeaeae;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.my-flex-block2  a  {
+	color: #aeaeae;
 	text-decoration: none;
-	
-	font-size: 14px;
+	font-size: 15px;
 }
-
-.titles__first {
-	font-size: 7px;
-	color: #fff;
-	text-transform: uppercase;
-	text-align: center;
-	margin-top:0px ;
+.my-flex-block3 a  {
+    
+    color: #aeaeae;
+    text-decoration: none;
+	font-size: 15px;
 }
-
-h1 {
-	font-size: 25px;
-	color: #fff;
-	text-transform: uppercase;
-	text-align: center;
-	margin: 0;
-	margin-top:120px ;
+.my-flex-block4  a {
+    
+    color: #aeaeae;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.my-flex-block5 img{
+		
 
 }
-
-h3 {
-	text-align: center;
-	color:#666666 ;
-}
-p {
-	font-size:7px;
-	text-align: center;
-	color:#8d8d8d ;
-}
- 
- 
-h4 {
-	text-align: center;
-	color:#666666;
-}
-.services p{
-	text-align: justify;
-	text-align: left;
-		color:#666666;
-		margin-left:150px;
-		margin-bottom:40px;
-}
-img{
-	
-	float: left;
-
-}
-.info{
-	margin-bottom:50px;
-	margin-top: 45px;
-
-}
-.submenu {
-	
-}
-.logo{
-	
-	margin-left
-}
-
-
-	
- 
