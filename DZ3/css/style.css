@@ -1,0 +1,23 @@
+div {
+	font-family:Arial, sans-serif;
+	
+}
+
+#one{
+	font-style: normal;
+}
+#two{
+	font-style: italic;
+}
+#three{
+	font-style: oblique;
+}
+#four{
+	font-style: inherit;
+}
+.month{
+	position: absolute; /* Абсолютное позиционирование */
+    bottom: 15px; /* Положение от нижнего края */
+    left: : 15px; /* Положение от правого края */
+    
+}
