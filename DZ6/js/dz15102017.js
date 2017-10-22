@@ -3,7 +3,7 @@
 
 
 
-function arrRand(max, min, leng){
+/*function arrRand(max, min, leng){
 
 var arr = [];
 for (i = 0; i < leng; i++) {
@@ -34,4 +34,42 @@ if(a>b){
 	return -1;
 	}
 }
-console.log(res.sort(sortarr_max));
+console.log(res.sort(sortarr_max));*/
+
+
+/*var user= prompt("Введите ПИН-код")
+var pas = "1111";
+if(user==pas){
+
+
+
+while( ){
+var $ = prompt("enter summ ?");
+$ = parseInt($);
+
+
+if (isNaN($) || $ <= 0){
+    alert("ERROR");
+} else
+ {
+    var n50 = 50, n25 = 25, n10 = 10;
+
+    var c50 = parseInt($ / n50);
+    $ = $ - c50 * n50; // $ -= c50 * n50;
+
+    var c25 = parseInt($ / n25);
+    $ = $ - c25 * n25;
+
+    var c10 = parseInt($ / n10);
+    $ = $ - c10 * n10;
+    
+	alert("fifty"+ "" +"= "+ c50 +": "+
+	"twenty five"+ "" +"= "+ c25 +": "+
+	"ten" + ""+ "=" + c10 + ": "
+	+ 'remainder' + '=' +$);
+
+	}
+}else{
+	alert("ERROR");
+}
+}*/
