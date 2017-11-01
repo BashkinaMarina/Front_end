@@ -20,7 +20,7 @@
  c с помощью js*/
 
 //создали элементы ol,li,h1,h3,div
-			var olElemt = document.createElement('ol');
+			/*var olElemt = document.createElement('ol');
 				document.body.appendChild(olElemt);
 		 for( var i =0; i<3; i++){
 			var liElement = document.createElement('li');
@@ -61,7 +61,27 @@
 				document.querySelectorAll('div')[2].innerHTML = time;
 				window.setTimeout(t, 1000);
 		
-	}();
-	
+	}();*/
 
 
+
+
+
+
+/*for ( var i = 0; i < 156; i++){
+var eldiv = document.createElement('div');
+document.body.appendChild(eldiv);
+
+eldiv.style.cssText = "\
+width :10px;\
+height : 10px;\
+background: red;\
+"	
+}*/
+ //eldiv.style.background = "" + (Math.round(Math.random()*16)).toString(16)+ "" +(Math.round(Math.random()*16)).toString(16)+ ""+(Math.round(Math.random()*16)).toString(16);
+
+ for ( var i = 0; i < 156; i++){
+var eldiv = document.createElement('div');
+document.body.appendChild(eldiv);
+}
+var diagInPx = Math.sqrt(Math.pow(screen.width, 2) + Math.pow(screen.height, 2));
