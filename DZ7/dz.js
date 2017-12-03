@@ -80,8 +80,4 @@ background: red;\
 }*/
  //eldiv.style.background = "" + (Math.round(Math.random()*16)).toString(16)+ "" +(Math.round(Math.random()*16)).toString(16)+ ""+(Math.round(Math.random()*16)).toString(16);
 
- for ( var i = 0; i < 156; i++){
-var eldiv = document.createElement('div');
-document.body.appendChild(eldiv);
-}
-var diagInPx = Math.sqrt(Math.pow(screen.width, 2) + Math.pow(screen.height, 2));
+ 
