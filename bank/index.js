@@ -1,13 +1,21 @@
-
-
-$('.circle_1').click(function(){
-    var type = $('#Pass').attr('type') == "text" ? "password" : 'text',
-     c = $(this).text() == "Скрыть пароль" ? "+" : "- ";
-$(this).text(c);
-$('#Pass').prop('type', type);
-});
-
-
+// Show Hide Password
+function ShowHidePassword(id) {
+	element = document.getElementById(id);
+	if (element.type == 'password') {
+		var inp = document.createElement("input");
+		inp.id = id;
+		inp.type = "text";
+		inp.value = element.value;
+    element.parentNode.replaceChild(inp, element);
+	}
+	else {
+		var inp = document.createElement("input");
+		inp.id = id;
+		inp.type = "password";
+		inp.value = element.value;
+		element.parentNode.replaceChild(inp, element);
+	}
+}
 
 
 // objects

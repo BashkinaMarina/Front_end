@@ -7,13 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+
+
 </head>
 <body>
 <form name="form">
     <div class="forms">
         <label for="restart" class="res">Вход в систему<input type="submit" value="restart" name="restart"
                                                               id="restart"></label>
-        <label for="pin" class="open_pin">
+        <label for="pin" id="open_pin" onclick="ShowHidePassword('pin')">
             <div class=" circle_1">
                 <div class="circle_2"></div>
             </div>
